@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #121e4d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to bottom,
+    #6144a3
+  );
+  border-radius: 999px;
+}
+
+/* Hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7353c0 ; /* slate-600 */
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #ffffff;
+  -webkit-box-shadow: 0 0 0px 1000px #1e293b inset;
+  caret-color: #ffffff;
+}
+
